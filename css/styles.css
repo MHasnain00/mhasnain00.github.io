@@ -71,6 +71,7 @@ section {
 /* Contact Section */
 .contact {
     background-color: rgba(27, 31, 36, 0.8); /* Darker overlay */
+    color: white;
 }
 
 /* Footer */
