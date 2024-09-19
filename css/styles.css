@@ -19,18 +19,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 2vh;
+
     background-color: rgba(27, 31, 36, 0.9); /* Slight transparency */
 }
 
 .logo img {
-    width: 100px;
+    width: 12%;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 4vh;
 }
 
 nav ul li a {
@@ -41,12 +42,12 @@ nav ul li a {
 
 /* Section Styles */
 section {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 10vh;
 }
 
 /* Home Section */
@@ -77,13 +78,13 @@ section {
 /* Footer */
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 2vh;
     background-color: #1b1f24;
     color: white;
 }
 p {
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 3vh;
   }
 ul {
     line-height: 1.6;
@@ -93,12 +94,12 @@ ul {
 
   }
 li {
-    padding-left: 20px;
-    padding-bottom: 10px;
+    padding-left: 2vh;
+    padding-bottom: 1vh;
 }
 h1 , h2 , h3, h4 , h5 , h6 {
     line-height: 1.6;
 }
-a {
-    color:aqua;
+a{
+    color: aqua;
 }
