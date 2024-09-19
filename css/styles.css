@@ -18,8 +18,8 @@ body {
 /* Navbar */
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-direction:column;
     padding: 1.25rem; /* 20px converted to rem */
     background-color: rgba(27, 31, 36, 0.9); /* Slight transparency */
 }
